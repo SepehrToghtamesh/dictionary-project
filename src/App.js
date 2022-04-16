@@ -8,14 +8,32 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <img src={logo} className="App-logo " alt="logo" />
-        </header>
+        </header>{" "}
         <main>
           <Dictionary defaultKeyword="sunset" />
-        </main>
+        </main>{" "}
         <footer className="App-footer">
-          <small>Coded by Mitra</small>
-        </footer>
-      </div>
+          <small>
+            This project was coded by Mitra Toghtamesh and is{" "}
+            <a
+              href="https://github.com/mitra0079/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open - sourced{" "}
+            </a>{" "}
+            on Github and{" "}
+            <a
+              href="https://nostalgic-dijkstra-4dccf1.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              hosted on Netlify{" "}
+            </a>{" "}
+          </small>{" "}
+        </footer>{" "}
+      </div>{" "}
     </div>
   );
 }
